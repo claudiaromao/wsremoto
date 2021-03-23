@@ -1,0 +1,22 @@
+package br.com.gamaimplementacao;
+
+import javax.swing.JOptionPane;
+
+import br.com.gama.modelo.Aluno;
+
+public class TesteAluno {
+
+public static void main(String[] args) {
+	
+	
+	Aluno aluno=new Aluno();
+	aluno.setEmail(JOptionPane.showInputDialog("email").toLowerCase);
+	
+	
+	
+	
+}
+
+
+
+}

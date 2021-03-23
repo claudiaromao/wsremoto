@@ -1,0 +1,22 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioDecisao {
+public void mais() {
+
+	short diarias = Short.parseShort(JOptionPane.showInputDialog ("Diárias"));
+	if (diarias>15) {
+			System.out.println("Total: " + ((80+5.5)*diarias));
+	} else if (diarias==15) {
+		System.out.println("Total: " + ((80+6)*diarias));
+	}	else {
+		System.out.println("Total: " + ((80+8)*diarias));
+	}
+	float taxa = Float.parseFloat(JOptionPane.showInputDialog ("Taxa de serviço"));
+	System.out.println("Total da fatura: R$" + diarias * taxa);
+	
+		
+
+}
+}

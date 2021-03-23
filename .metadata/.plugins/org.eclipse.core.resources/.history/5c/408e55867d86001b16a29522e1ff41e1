@@ -1,0 +1,23 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioDecisao {
+public void mais() {
+
+	String hotel = JOptionPane.showInputDialog("Hotel:").toUpperCase();
+	float diaria = Float.parseFloat(JOptionPane.showInputDialog ("Diária"));
+	float taxa = Float.parseFloat(JOptionPane.showInputDialog ("Taxa de serviço"));
+	if (diaria>15) {
+		System.out.println("Taxa R$" + taxa * 0.55);
+	}	else if (diaria==15) {
+			System.out.println("Taxa R$" + taxa * 0.6);
+	}	else if (diaria<15) {
+		System.out.println("Taxa R$" + taxa  * 0.8);
+	}
+	System.out.println("Total da fatura: R$" + diaria * taxa);
+	
+		
+
+}
+}

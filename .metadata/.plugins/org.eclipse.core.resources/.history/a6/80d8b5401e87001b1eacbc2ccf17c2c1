@@ -1,0 +1,23 @@
+package repeticao;
+
+public class ExercicioRepeticao {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * O jogador 1 irá digitar um número, o jogador 2
+		 * terá que advinhar o número digitado pelo jogador 1.
+		 * Somente quando ele acertar vai dar a mensagem de "Parabéns"
+		 * 
+		 * Missao1:
+		 * - dê dicas ao Jogador 2, se ele está chutando alto ou baixo.
+		 * 
+		 * Missao2:
+		 * - acrescentar na mensagem de Parabéns, quantas tentativas 
+		 * foram utilizadas até que o jogador 2 acertasse.
+		 * Dica: vai ter que utilizar uma variável pra contar.
+		 */
+
+	}
+
+}

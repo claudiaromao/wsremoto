@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;br.com.gamamodelo&apos; to &apos;br.com.gama.modelo&apos;&#x0D;&#x0A;- Original project: &apos;gama&apos;&#x0D;&#x0A;- Original element: &apos;gama/src/br.com.gamamodelo&apos;&#x0D;&#x0A;- Renamed element: &apos;gama/src/br.com.gama.modelo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;br.com.gamamodelo&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;br.com.gamamodelo" name="br.com.gama.modelo" qualified="false" references="true" stamp="1616079841728" textual="false" version="1.0"/>
+</session>

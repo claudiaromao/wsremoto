@@ -1,0 +1,43 @@
+package variaveis;
+
+import javax.swing.JOptionPane;
+
+public class DecisaoEncadeada {
+public static void main(String[] args) {
+	
+	String disciplina = JOptionPane.showInputDialog("Disciplina:").toUpperCase();
+	float nota1 = Float.parseFloat(JOptionPane.showInputDialog ("Nota1"));
+	float nota2 = Float.parseFloat(JOptionPane.showInputDialog ("Nota2"));
+	float faltas = Float.parseFloat(JOptionPane.showInputDialog ("Faltas"));
+	float media = ((nota1 + nota2)/2);
+	System.out.println("Media:"+ media);
+	
+	
+	if (media>=6) {
+		System.out.println("Parabéns! Você foi aprovado" + disciplina);
+	}else if (media<4) {
+		System.out.println("Infelizmente você foi reprovado!");
+	}else if (media<6 && media>=4) {
+		System.out.println("Você terá mais uma chance!");
+	}if (faltas<20) {
+		System.out.println("Infelizmente você foi reprovado!");
+	}
+
+
+
+
+
+
+
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+

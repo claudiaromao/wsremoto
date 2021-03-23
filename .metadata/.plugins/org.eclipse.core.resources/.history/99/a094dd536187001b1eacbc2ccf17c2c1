@@ -1,0 +1,24 @@
+package br.com.caicai.modelo;
+
+public class cacai {
+
+	private String nome;
+	private byte maximoPessoas;
+	private byte andarMaximo;
+	private byte andarMinimo;
+	private byte andarAtual;
+	private byte qtdePessoas;
+	
+	
+	public void inicializar(String pNome, byte pMaximoPessoas, byte pAndarMaximo, byte pAndarMinimo) {
+		inicializar = pInicializar.toUpperCase();
+		
+	
+	
+	
+	
+	
+	
+	
+	
+}
